@@ -1,0 +1,56 @@
+/* Apply styles to the body element */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Style the header */
+h1 {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+}
+
+/* Style the form container */
+form {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+/* Style the file input field */
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Style flash messages (optional) */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    color: #dc3545; /* Red color for error messages */
+}
+
+/* Add some spacing to the list items */
+li + li {
+    margin-top: 5px;
+}
